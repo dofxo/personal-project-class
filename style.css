@@ -35,13 +35,12 @@
     z-index: 1;
     transition: all ease-in-out 0.5s;
 }
+
 /* scroll stuff */
 .scroll-down {
-    transform: translateY(-100%);
+    box-shadow: 0 1px 20px -3px black !important;
 }
-.scroll-up {
-    box-shadow: 0 1px 5px -1px black !important;
-}
+
 #header .container {
     display: flex;
     justify-content: space-between;
