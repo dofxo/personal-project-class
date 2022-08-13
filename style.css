@@ -25,14 +25,23 @@
 /* header */
 #header {
     min-width: fit-content;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
     background-color: white;
     margin-bottom: 20px;
     box-shadow: 0 2px 20px #9693938c;
     z-index: 1;
+    transition: all ease-in-out 0.5s;
 }
-
+/* scroll stuff */
+.scroll-down {
+    transform: translateY(-100%);
+}
+.scroll-up {
+    box-shadow: 0 1px 5px -1px black !important;
+}
 #header .container {
     display: flex;
     justify-content: space-between;
@@ -88,7 +97,7 @@
     padding: 10px 0;
     visibility: hidden;
     opacity: 0;
-    box-shadow: 0 0 20px -10px;
+    box-shadow: 0 0 8px -2px black;
     transition: all 0.1s linear;
     transition-delay: 0.1s;
     display: block;
@@ -156,7 +165,6 @@
 
 
 }
-
 
 /* main row 1 */
 
