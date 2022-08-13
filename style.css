@@ -120,7 +120,7 @@
     visibility: hidden;
     opacity: 0;
     background-color: #fff;
-    box-shadow: 0 0 20px -10px;
+    box-shadow: 0 0 8px -2px black;
     transition: all 0.1s linear;
     transition-delay: 0.1s;
     display: block;
